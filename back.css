@@ -26,6 +26,9 @@ body {
 .bgimg{
     display: block;
     clear: right;
+    clear: top;
+    float: top;
+    margin-bottom: 40%;
     float: right;
-    width: 76%;
-    height: 76%; }
+    width: 84%;
+    height: 84%; }
