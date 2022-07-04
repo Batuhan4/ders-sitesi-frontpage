@@ -12,6 +12,9 @@ body {
 }
 .logo{
  box-sizing: border-box;
+width: 298px;
+    /* height 100 ise weight 476 buNA GÖRE AYARLA*/
+    height: 70px;
 }
 .logoimg{
     display: block;
