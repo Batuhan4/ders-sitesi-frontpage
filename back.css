@@ -24,10 +24,8 @@ body {
     height: 80px;
 }
 .logoimg{
-    position: fixed;
+    position: absolute;
     display: block;
-    max-width: 100%;
-    max-height: 100%;
     width: 341px;   /* height 100 ise weight 476 buNA GÖRE AYARLA*/
     height: 80px;
     padding-left: 25px;
