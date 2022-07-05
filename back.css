@@ -35,21 +35,23 @@ body {
     
 }
 .bg{
-    box-sizing: border-box;
-    position: relative;
-    width: auto;
-    height: auto;
+    margin-top: 110px;
+    display: block;
+    position: absolute;
+    margin-left: 800px;
+
+
 }
 .bgimg{
     display: block;
     clear: right;
     clear: top;
     float: top;
-    position: relative;
-    margin-bottom: 40%;
+    position: absolute;
+    margin-bottom: 500px;
     float: right;
-    width: 47%;
-    height: 47%; }
+    width: 550px;
+    height: 550px; }
 
 .menu{
     display: block;
