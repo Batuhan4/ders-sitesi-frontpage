@@ -66,8 +66,8 @@ body {
     font-family: "Myriad-Pro";
     color: aliceblue;
     position: absolute;
-    margin-top: 15.3%;
-    margin-left: 2.3%;
+    margin-top: 210px;
+    margin-left: 35px;
     width: 700px;
     height: 300px;
     display: block;
@@ -229,8 +229,8 @@ span {
     color: aliceblue;
 }
 .baslik{
-    margin-top: 14%;
-    margin-left: 2.3%;
+    margin-top: 180px;
+    margin-left: 30px;
     position: absolute;
     color: red;
     font-weight: bold;
