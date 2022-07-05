@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
-
+@font-face {
+    font-family: "Myriad-Pro";
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
 body {
     background-image: url("images-page/vodson.png");
     width: 100%;
@@ -13,23 +16,22 @@ body {
 }
 .logo{
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     width: 341px;
     max-width: 100%;
     max-height: 100%;
     /* height 100 ise weight 476 buNA GÖRE AYARLA*/
     height: 80px;
-    
 }
 .logoimg{
-    position: relative;
+    position: fixed;
     display: block;
     max-width: 100%;
     max-height: 100%;
-    width: 83%;   /* height 100 ise weight 476 buNA GÖRE AYARLA*/
-    height: 88%;
-    padding-left: 5%;
-    padding-top: 4%;
+    width: 341px;   /* height 100 ise weight 476 buNA GÖRE AYARLA*/
+    height: 80px;
+    padding-left: 25px;
+    padding-top: 15px;
     
 }
 .bg{
@@ -60,12 +62,37 @@ body {
     
 }
 .yazi {
+    overflow: hidden;
+    font-family: "Myriad-Pro";
+    color: aliceblue;
+    position: absolute;
+    margin-top: 15.3%;
+    margin-left: 2.3%;
+    width: 700px;
+    height: 300px;
     display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    display: flex;
 }
 .main{
     box-sizing: border-box;
 }
-
+.devam{
+    overflow: hidden;
+    margin-top: 470px;
+    display: block;
+    margin-left: 500px;
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    border: 2px solid aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
 
 
 
@@ -195,3 +222,16 @@ span {
     color: #2BD6B4;
 }
 /* ELLEME BOZARSIN  BİTTİ */
+
+
+
+.cser{
+    color: aliceblue;
+}
+.baslik{
+    margin-top: 14%;
+    margin-left: 2.3%;
+    position: absolute;
+    color: red;
+    font-weight: bold;
+}
