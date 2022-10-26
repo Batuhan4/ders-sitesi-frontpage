@@ -231,10 +231,25 @@ span {
     color: aliceblue;
 }
 .baslik{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 37px;
     margin-top: 180px;
     margin-left: 30px;
     position: absolute;
     color: red;
     font-weight: bold;
+}
+.buton{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 76px;
+	height: 65px;
+	border-radius: 25px;
+	background: red;
+	color: #fff;
+	font-size: inherit;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
 }
