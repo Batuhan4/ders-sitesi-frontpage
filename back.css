@@ -186,7 +186,7 @@ a:nth-child(3):hover~.animation {
 
 nav .start-portefolio,
 a:nth-child(4):hover~.animation {
-    width: 80px;
+    width: 100px;
     left: 310px;
     background-color: #9b59b6;
 }
@@ -242,8 +242,9 @@ span {
 .buton{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 76px;
-	height: 65px;
+	height: 55px;
 	border-radius: 25px;
+    margin-left: 15px;
 	background: red;
 	color: #fff;
 	font-size: inherit;
@@ -252,4 +253,7 @@ span {
 	cursor: pointer;
 	outline: none;
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+.kayit{
+    margin-left: 13px;
 }
