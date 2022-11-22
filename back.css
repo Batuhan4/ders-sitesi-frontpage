@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Myriad-Pro";
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+body {
+    background-image: url("images-page/vodson.png");
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.logo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 341px;
+    max-width: 100%;
+    max-height: 100%;
+    /* height 100 ise weight 476 buNA GÖRE AYARLA*/
+    height: 80px;
+}
+.logoimg{
+    position: absolute;
+    display: block;
+    width: 341px;   /* height 100 ise weight 476 buNA GÖRE AYARLA*/
+    height: 80px;
+    padding-left: 25px;
+    padding-top: 15px;
+    
+}
+.bg{
+    margin-top: 110px;
+    display: block;
+    position: absolute;
+    margin-left: 800px;
+
+
+}
+.bgimg{
+    display: block;
+    clear: right;
+    clear: top;
+    float: top;
+    position: absolute;
+    margin-bottom: 500px;
+    float: right;
+    width: 550px;
+    height: 550px; }
+
+.menu{
+    display: block;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    float: right;
+    padding-left: 1.3%;
+    padding-top: 1.3%;
+    
+}
+.yazi {
+    font-size: 24px;
+    overflow: hidden;
+    font-family: "Myriad-Pro";
+    color: aliceblue;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 35px;
+    width: 700px;
+    height: 300px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+}
+.main{
+    box-sizing: border-box;
+}
+.devam{
+    font-size: 23px;
+    overflow: hidden;
+    margin-top: 470px;
+    display: block;
+    margin-left: 500px;
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    border: 2px solid aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ELLEME BOZARSIN */  
+nav {
+    margin: 27px auto 0;
+
+    position: absolute;
+    width: 590px;
+    height: 50px;
+    margin-left: 400px;
+
+    font-size: 0;
+}
+
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+}
+
+a:nth-child(1) {
+    width: 100px;
+}
+
+a:nth-child(2) {
+    width: 110px;
+}
+
+a:nth-child(3) {
+    width: 100px;
+}
+
+a:nth-child(4) {
+    width: 80px;
+}
+
+a:nth-child(5) {
+    width: 120px;
+}
+
+nav .start-home,
+a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+    background-color: #1abc9c;
+}
+
+nav .start-about,
+a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 100px;
+    background-color: #e74c3c;
+}
+
+nav .start-blog,
+a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+    background-color: #3498db;
+}
+
+nav .start-portefolio,
+a:nth-child(4):hover~.animation {
+    width: 100px;
+    left: 310px;
+    background-color: #9b59b6;
+}
+
+nav .start-contact,
+a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 390px;
+    background-color: #e67e22;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin: 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Cherry Swash', cursive;
+}
+
+p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash', cursive;
+    font-size: 16px;
+}
+
+span {
+    color: #2BD6B4;
+}
+/* ELLEME BOZARSIN  BİTTİ */
+
+
+
+.cser{
+    color: aliceblue;
+}
+.baslik{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 37px;
+    margin-top: 180px;
+    margin-left: 30px;
+    position: absolute;
+    color: red;
+    font-weight: bold;
+}
+.buton{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 82px;
+	height: 55px;
+	border-radius: 25px;
+    margin-left: 15px;
+	background: red;
+	color: #fff;
+	font-size: inherit;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+.kayit{
+    margin-left: 13px;
+}
