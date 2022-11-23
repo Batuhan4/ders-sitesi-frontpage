@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slider from './components/NetflixSlider'
 import './App.scss'
-
+import Home  from  './pages/home';
 
 const movies = [
   {
