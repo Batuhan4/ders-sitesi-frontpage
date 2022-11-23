@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Slider from './components/NetflixSlider'
 import './App.scss'
+import Home from './pages/home';
 
 const movies = [
   {
@@ -40,10 +41,14 @@ const movies = [
     title: 'Black mirror'
   }
 ];
+function App(){
+  return <Home/>;
+}
 
 class App extends Component {
   render() {
     return (
+   
       <div className="app">
         <Slider>
           {movies.map(movie => (
