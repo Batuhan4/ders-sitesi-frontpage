@@ -4,7 +4,7 @@
   position: relative;
 
   &__container {
-    display: block;
+    display: flex;
     padding: 0 55px;
     transition: transform 300ms ease 100ms;
     z-index: 3;
