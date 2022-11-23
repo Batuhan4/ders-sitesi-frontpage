@@ -6,7 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Home from './pages/home';
 
-export default function App() {
+export default function routePages() {
     return (
       <BrowserRouter>
         <Routes>
