@@ -1,6 +1,6 @@
 import React from "react";
 import logoimg from "./images-page/testlavodlogo.png";
-import bgimg from  "images-page/bg1.png";
+import bgimg from  "./images-page/bg1.png";
 class Home extends React.Component{
     render(){
         return(
