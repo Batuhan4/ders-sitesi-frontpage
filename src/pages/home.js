@@ -8,11 +8,11 @@ class Home extends React.Component{
                    <div class="main">
       <nav>
         <a href="#">Anasayfa</a>
-        <a href="pages/singin/index.html">Fizik</a>
-        <a href="pages/singin/index.html">Matematik</a>
+        <a href="#">Fizik</a>
+        <a href="#">Matematik</a>
         <a class="kayit" href="#">Kayıt ol</a>
         <div class="animation start-home"></div>
-        <a href="pages/singin/index.html"><button class="buton">Giriş Yap</button></a>
+        <a href="#"><button class="buton">Giriş Yap</button></a>
       </nav>
       <div class="logo">
         <a href="#"
@@ -33,6 +33,7 @@ class Home extends React.Component{
       </div>
       <div class="devam"><a class="cser" href="#">Devamını Oku</a></div>
       <div class="baslik">TESTLA VOD</div>
+      
     </div>
             </div>
         );
