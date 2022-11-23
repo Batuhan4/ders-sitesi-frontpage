@@ -1,21 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Home from './pages/home';
 
-export default function routePages() {
-    return (
-      <BrowserRouter>
-        <Routes>
-            <Route index element={<Home />} />
-        </Routes>
-      </BrowserRouter>
-    );
-  }
-ReactDOM.render(<routePages />, document.getElementById('root'));
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

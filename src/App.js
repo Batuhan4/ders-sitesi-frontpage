@@ -48,6 +48,7 @@ class App extends Component {
     return (
     
       <div className="app">
+        <Home />
         <Slider>
           {movies.map(movie => (
             <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
