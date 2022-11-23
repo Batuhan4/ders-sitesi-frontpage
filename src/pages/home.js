@@ -1,5 +1,6 @@
 import React from "react";
-
+import logoimg from "./images-page/testlavodlogo.png";
+import bgimg from  "images-page/bg1.png";
 class Home extends React.Component{
     render(){
         return(
@@ -15,11 +16,11 @@ class Home extends React.Component{
       </nav>
       <div class="logo">
         <a href="#"
-          ><img class="logoimg" src="images-page/testlavodlogo.png" alt="logo"
+          ><img class="logoimg" src={logoimg} alt="logo"
         /></a>
       </div>
       <div class="bg">
-        <img class="bgimg" src="images-page/bg1.png" alt="bgimg" />
+        <img class="bgimg" src={bgimg} alt="bgimg" />
       </div>
       <div class="yazi">
         Bilgiye hızlı ve kolay şekilde erişme imkanı sağlayan TESTLAVOD zaman ve
