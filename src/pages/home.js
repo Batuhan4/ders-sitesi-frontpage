@@ -1,21 +1,22 @@
 import React from "react";
 import logoimg from './images-page/testlavodlogo.png';
 import bgimg from  './images-page/bg1.png';
+import './home.scss';
 class Home extends React.Component{
     render(){
         return(
             <div>
                    <div class="main">
       <nav>
-        <a href="#">Anasayfa</a>
-        <a href="#">Fizik</a>
-        <a href="#">Matematik</a>
-        <a class="kayit" href="#">Kayıt ol</a>
+        <a href="/">Anasayfa</a>
+        <a href="/">Fizik</a>
+        <a href="/">Matematik</a>
+        <a class="kayit" href="/">Kayıt ol</a>
         <div class="animation start-home"></div>
-        <a href="#"><button class="buton">Giriş Yap</button></a>
+        <a href="/"><button class="buton">Giriş Yap</button></a>
       </nav>
       <div class="logo">
-        <a href="#"
+        <a href="/"
           ><img class="logoimg" src={logoimg} alt="logo"
         /></a>
       </div>
@@ -31,14 +32,13 @@ class Home extends React.Component{
         tutabileceğiniz ve dilediğiniz zaman tekrar yapabileceğiniz sınırsız
         erişim imkanı sağlar. Test çözerken, öğrenebileceğiniz...
       </div>
-      <div class="devam"><a class="cser" href="#">Devamını Oku</a></div>
+      <div class="devam"><a class="cser" href="/">Devamını Oku</a></div>
       <div class="baslik">TESTLA VOD</div>
       <div ><h1 class = "baslik3">Fizik</h1></div>
-      
+      <div ><h1 class = "baslik4">Matematik</h1></div>
     </div>
             </div>
         );
     }
 }
-
 export default Home;
