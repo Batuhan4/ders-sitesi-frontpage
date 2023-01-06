@@ -35,7 +35,7 @@ class Home extends React.Component{
       <div class="devam"><a class="cser" href="/">Devamını Oku</a></div>
       <div class="baslik">TESTLA VOD</div>
       <div ><h1 class = "baslik3">Fizik</h1></div>
-      <div ><h1 class = "baslik4">Matematik</h1></div>
+
     </div>
             </div>
         );

@@ -106,7 +106,9 @@ class App extends Component {
           ))}
         </Slider>
         </div>
+        <div class ="sarma"><h1 class = "baslik4">Matematik</h1></div>
         <div className='slider2'>
+
         <Slider>
           {matematik.map(movie => (
             <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
